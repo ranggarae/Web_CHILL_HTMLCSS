@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    line-height: 1.6;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #181818;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar .logo img {
+    height: 30px;
+    margin-right: 0.5rem;
+  }
+  
+  .navbar nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar nav ul li {
+    margin-left: 3rem;
+    
+  }
+  
+  .navbar nav ul li a {
+    position: relative;
+    color: #b1b1b1;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  .navbar nav ul li a:hover {
+    color: #e50914;
+  }
+  
+  .navbar .profile-icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar .profile-icon img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    background-image: url('asset/duty\ after\ school\ hero.png');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 5px solid #333;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 15rem;
+  }
+  
+  .hero-content .buttons button {
+    padding: 0.7rem 1.5rem;
+    margin-right: 1rem;
+    border: 4px;
+    background-color: #1101a8;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .hero-content .buttons button:hover {
+    background-color: #170655;
+  }
+  
+
+  .container {
+    max-width: 1600px;
+    margin: 20px auto;
+    padding: 2 20px;
+    margin-bottom: 40px;
+  }
+
+  .category {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 2 20px;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .film-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+  }
+  
+  .card {
+    min-width: 200px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cardvertical {
+    min-width: auto;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .cardvertical:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardvertical img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  .card-info {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-info h3 {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .card-info span {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  
+  footer {
+    padding: 2rem;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+  }
+  
+  footer .footer-logo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  footer .footer-logo img {
+    height: 40px;
+  }
+  
+  footer .footer-links {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .footer-links div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+  
+  footer .footer-links div a {
+    color: #b1b1b1;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  footer .footer-links div a:hover {
+    color: #e50914;
+  }
+  
+  label {
+    visibility: hidden;
+  }
